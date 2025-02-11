@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Semi Condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+.top-main-logo {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.top-main {
+    padding: 10px;
+}
+
+.top-main-btn {
+    background-color: #82b53f;
+    border: 1px solid #82b53f;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 5px 21px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.top-main-btn:hover {
+    transform: scale(1.1);
+}
+
+.section-one {
+    background-image: url(https://images.unsplash.com/photo-1519143468229-4cde34927323?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvdGVsJTIwbmlnaHR8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 990px;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 21px 0px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.middle-one {
+    font-family: "Sevillana", serif;
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.nav-hamburger {
+    border: 1px solid #ffffff75;
+    padding: 5px 0;
+    background-color: #a19c9c42;
+    color: #fff;
+    border-radius: 20rem;
+}
+
+.side-bar {
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+    color: #fff;
+}
+
+.side-bar:hover {
+    transform: scale(1.10);
+    text-decoration: underline;
+
+}
+
+#side-bar-main {
+    background-color: #212529;
+}
+
+.nav-button {
+    padding: 16px 34px;
+    border: 1px solid #ffffff75;
+    background-color: #a19c9c42;
+    color: #fff;
+    border-radius: 20rem;
+    font-size: 13px;
+    margin-left: 22px;
+}
+
+#middle-logo {
+    color: #fff;
+
+}
+
+.middle-banner-1 {
+    text-align: center;
+}
+
+.middle-content h1 {
+    padding-top: 3rem;
+    line-height: 1.6;
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    font-weight: 450;
+}
+
+.middle-content p {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.middle-content-btn {
+    padding: 16px 34px;
+    border: 1px solid #ffffff4d;
+    background-color: #89020073;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 20rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#middle-btn {
+    margin-top: 3rem;
+}
+
+#middle-btn:hover {
+    transform: scale(1.05);
+}
+
+
+
+.tb-top-text {
+    color: #800000;
+    font-family: "Sevillana", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tb-top-text-larg {
+    font-size: 3.4rem;
+    color: #000000;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+.tb-list-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1210px) {
+    .nav-item {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .nav-button {
+        padding: 13px 19px;
+        margin-left: 3px;
+        font-size: 9px;
+    }
+
+    .nav-hamburger {
+        border: none;
+        background-color: transparent;
+    }
+}

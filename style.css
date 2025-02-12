@@ -45,7 +45,7 @@
     background-size: cover;
     width: 100%;
     height: 100%;
-    
+
 }
 
 .container-nav {
@@ -285,6 +285,7 @@
     border-radius: 20rem;
     border: 1px solid #ffffff8c;
 }
+
 .mc-main {
     text-align: center;
     padding: 90px 0px;

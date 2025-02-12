@@ -45,7 +45,7 @@
     background-size: cover;
     width: 100%;
     height: 100%;
-
+    padding-bottom: 4rem;
 }
 
 .container-nav {
@@ -227,17 +227,6 @@
     flex-wrap: wrap;
 }
 
-/* .top-corner-logo {
-    position: absolute;
-    top: 83px;
-    right: 23rem;
-    background-color: #800000;
-    border: 1px solid #800000;
-    color: #fff;
-    border-radius: 0rem 20rem 0rem 20rem;
-    padding: 20px 57px;
-} */
-
 .top-corner-logo h1 {
     font-size: 20px;
     font-family: "Style Script", serif;
@@ -257,13 +246,13 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 20px;
+    padding: 50px;
 }
 
 
 .michelin-1 {
     background-color: #ffffff;
-    border: 1px solid #000000;
+    border: 1px solid #f9eddd;
     border-radius: 20rem;
     padding: 15px;
     width: 224px;
@@ -285,11 +274,10 @@
     border-radius: 20rem;
     border: 1px solid #ffffff8c;
 }
-
 .mc-main {
     text-align: center;
     padding: 90px 0px;
-    border: 1px solid rgba(0, 0, 0, 0.24);
+    border: 1px solid #c4bbbbc4;
     border-radius: 20rem;
 
 }
@@ -318,6 +306,9 @@
         width: 100%;
         height: auto;
     }
+    .section-one{
+        padding-bottom: 10px;
+    }
 
 }
 
@@ -336,6 +327,9 @@
     .tb-list-item {
         justify-content: space-evenly;
         column-gap: 8px;
+    }
+    .section-one{
+        padding-bottom: 0px;
     }
 
 }

@@ -414,13 +414,31 @@
 .third-txt img {
     border-radius: 80px 80px 17px 17px;
 }
-.third-txt-img{
+
+.third-txt-img {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK6i0F0e9wCb44nCLY_7NsSU82MXeOHiBpnw&s);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 72px 62px;
     border-radius: 80px 80px 17px 17px;
     width: 52px;
 }
-
+.third-txt-img2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3SwCzffTeuRcx9IgApy0iRh7uv635XKayvA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 72px 62px;
+    border-radius: 80px 80px 17px 17px;
+    width: 52px;
+}
+.third-txt-img3 {
+    background-image: url(https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b46589f1c87c4c7a863d8df85f1f1b68.jpeg?w=600&h=600&org_if_sml=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 72px 62px;
+    border-radius: 80px 80px 17px 17px;
+    width: 52px;
+}
 
 @media only screen and (max-width: 1210px) {
     .nav-item {
@@ -447,10 +465,6 @@
         display: block;
     }
 
-    /* .section-3 {
-        display: block;
-    } */
-
     .first-txt h1 {
         width: 100%;
         height: 100%;
@@ -473,6 +487,7 @@
     .third-txt-img {
         margin: 0 auto;
     }
+
     .seacand-txt {
         border: none;
     }

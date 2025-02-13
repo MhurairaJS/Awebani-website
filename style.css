@@ -369,7 +369,7 @@
 }
 
 .first-txt h1 {
-    font-family: "Sevillana", serif ;
+    font-family: "Sevillana", serif;
     margin: 0;
     width: 200px;
     height: 226px;
@@ -392,11 +392,13 @@
     width: 54%;
     height: 226px;
 }
-.seacand-txt h2{
+
+.seacand-txt h2 {
     text-transform: uppercase;
     word-spacing: 5px;
 }
-.seacand-txt p{
+
+.seacand-txt p {
     color: #ffffffe0;
     font-size: 14px;
     word-spacing: 1px;
@@ -404,13 +406,19 @@
 }
 
 .third-txt {
-    padding: 34px 0px 0 63px;
+    padding: 31px 0px 0px 75px;
     border-bottom: 1px solid #4b4e525d;
     width: 26.8%;
 }
 
 .third-txt img {
     border-radius: 80px 80px 17px 17px;
+}
+.third-txt-img{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK6i0F0e9wCb44nCLY_7NsSU82MXeOHiBpnw&s);
+    padding: 72px 62px;
+    border-radius: 80px 80px 17px 17px;
+    width: 52px;
 }
 
 
@@ -457,14 +465,16 @@
     }
 
     .third-txt {
-        padding: 32px 0px 0 0px;
+        padding: 22px 0px 29px 0px;
         width: 100%;
         height: 100%;
     }
 
-    .third-txt img {
-        width: 300px;
-        border-radius: 80px 80px 17px 17px;
+    .third-txt-img {
+        margin: 0 auto;
+    }
+    .seacand-txt {
+        border: none;
     }
 }
 

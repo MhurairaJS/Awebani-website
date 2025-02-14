@@ -159,7 +159,6 @@
     position: relative;
 }
 
-
 .tb-top-text {
     color: #800000;
     font-family: "Sevillana", serif;
@@ -235,6 +234,7 @@
 }
 
 .section-2 {
+    position: relative;
     width: 100%;
     height: 100%;
     background-color: #f9eddd;
@@ -325,6 +325,28 @@
     border-radius: 40px;
     font-size: 13px;
     letter-spacing: 1px;
+}
+
+.ex-side-img {
+    background-image: url(/sketch-cooks-working-kitchen_647246-2203-ezgif.com-avif-to-jpg-converter-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 38rem;
+    filter: opacity(30%);
+    width: 30%;
+    padding: 188px;
+}
+
+.ex-side-img2 {
+    background-image: url(/download__1_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 38rem;
+    filter: opacity(30%);
+    width: 30%;
+    padding: 188px;
 }
 
 .section-3 {
@@ -423,6 +445,7 @@
     border-radius: 80px 80px 17px 17px;
     width: 52px;
 }
+
 .third-txt-img2 {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3SwCzffTeuRcx9IgApy0iRh7uv635XKayvA&s);
     background-repeat: no-repeat;
@@ -431,6 +454,7 @@
     border-radius: 80px 80px 17px 17px;
     width: 52px;
 }
+
 .third-txt-img3 {
     background-image: url(https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b46589f1c87c4c7a863d8df85f1f1b68.jpeg?w=600&h=600&org_if_sml=1);
     background-repeat: no-repeat;
@@ -438,6 +462,20 @@
     padding: 72px 62px;
     border-radius: 80px 80px 17px 17px;
     width: 52px;
+}
+
+.section-4 {
+    width: 100%;
+    height: 50rem;
+    background-color: #f9eddd;
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+    .first-txt h1 {
+        width: 140px;
+    }
 }
 
 @media only screen and (max-width: 1210px) {
@@ -487,12 +525,15 @@
     .third-txt-img {
         margin: 0 auto;
     }
+
     .third-txt-img2 {
         margin: 0 auto;
     }
+
     .third-txt-img3 {
         margin: 0 auto;
     }
+
     .seacand-txt {
         border: none;
     }

@@ -565,6 +565,7 @@
     .s4-top-content-1 h1 {
         margin: 0px 10px;
     }
+   
 }
 
 @media only screen and (max-width: 1210px) {
@@ -575,6 +576,9 @@
     .tb-bordr {
         width: 100%;
         height: auto;
+    }
+    .ex-side-img {
+        display: none;
     }
 
     .section-one {

@@ -466,15 +466,104 @@
 
 .section-4 {
     width: 100%;
-    height: 50rem;
+    height: 100%;
     background-color: #f9eddd;
 }
 
+.s4-top-content-1 {
+    padding-top: 3rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
 
+.s4-top-content-1 h1 {
+    color: #800000;
+    font-family: "Sevillana", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: normal;
+}
 
-@media only screen and (max-width: 1280px) {
+.s4-top-content-1 h2 {
+    font-size: 15px;
+    line-height: 4;
+    text-transform: uppercase;
+}
+
+.s4-seasons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.s4-season-1 {
+    text-align: center;
+    width: 300px;
+}
+
+.s4-season-1-image {
+    border-radius: 20px;
+    background-image: url(/download\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 342px;
+    width: 290px;
+
+}
+
+.s4-season-1-image2 {
+    border-radius: 35rem 35rem 80px 80px;
+    background-image: url(/download\ secand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 342px;
+    width: 290px;
+
+}
+
+.s4-season-1-image3 {
+    border-radius: 20px;
+    background-image: url(/download\ 3rd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 342px;
+    width: 290px;
+
+}
+
+.s4-text-1 h2 {
+    font-weight: 400;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.s4-text-1 h3 {
+    text-align: center;
+    color: #800000;
+    font-family: "Sevillana", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+
+.s4-text-2 p {
+    font-size: 11px;
+    padding: 0 46px;
+    color: #534c4c;
+}
+
+@media only screen and (max-width: 1580px) {
     .first-txt h1 {
         width: 140px;
+    }
+
+    .s4-top-content-1 h1 {
+        margin: 0px 10px;
     }
 }
 

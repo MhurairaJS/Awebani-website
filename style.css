@@ -869,11 +869,143 @@
         margin: 0px 10px;
     }
 }
+
 .all-item img {
     width: 100%;
-    height: 700px;
+    height: 100%;
 }
 
+.description-awebani {
+    width: 200px;
+}
+
+.description-awebani img {
+    width: 200px;
+}
+
+.description-awebani p {
+    margin-left: 23px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #726464;
+    line-height: 19px;
+}
+
+
+.description-awebani h1 {
+    color: #800000;
+    margin-left: 23px;
+    font-family: "Sevillana", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-contactus {
+    width: 200px;
+}
+
+.footer-contactus h1 {
+    font-size: 1rem;
+    color: hwb(0 0% 100%);
+    text-transform: uppercase;
+}
+
+.footer-contactus p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #726464;
+    line-height: 19px;
+}
+
+.footer-contactus h4 {
+    font-size: 0.9rem;
+    color: #800000;
+    cursor: pointer;
+}
+
+.usefull-links {
+    width: 200px;
+}
+
+.usefull-links p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #726464;
+    line-height: 7px;
+}
+
+.usefull-links h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: hwb(0 0% 100%);
+    text-transform: uppercase;
+}
+
+.ournews-letter {
+    width: 300px;
+    height: 160px;
+}
+
+.ournews-letter h1 {
+    margin-bottom: 1.4rem;
+    font-size: 1rem;
+    color: hwb(0 0% 100%);
+    text-transform: uppercase;
+}
+
+.ournews-letter p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #726464;
+
+}
+
+.ournews-letter input {
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    background: transparent;
+    width: 250px;
+    height: 39px;
+    margin: 10px 0;
+    border-radius: 3rem;
+    padding: 0 22px;
+}
+
+
+.ournews-letter button {
+    padding: 6px 28px;
+    border-radius: 3rem;
+    background-color: #800000;
+    border: 1px solid #800000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-web{
+    border-top: 1px solid #21252941;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.about-web p{
+    margin: 0px;
+    font-size: 13px;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #726464;
+}
 
 @media only screen and (max-width: 1210px) {
     .nav-item {

@@ -884,7 +884,7 @@
 }
 
 .description-awebani p {
-    margin-left: 23px;
+    /* margin-left: 23px; */
     font-size: 13px;
     font-weight: 400;
     color: #726464;
@@ -894,7 +894,7 @@
 
 .description-awebani h1 {
     color: #800000;
-    margin-left: 23px;
+    /* margin-left: 23px; */
     font-family: "Sevillana", serif;
     font-size: 2.5rem;
     font-weight: 400;
@@ -943,7 +943,7 @@
 }
 
 .ournews-letter {
-    width: 300px;
+    width: auto;
     height: 160px;
 }
 
@@ -962,6 +962,7 @@
 }
 
 .ournews-letter input {
+    display: block;
     border: 1px solid rgba(0, 0, 0, 0.199);
     background: transparent;
     width: 250px;
@@ -988,7 +989,8 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.about-web{
+
+.about-web {
     border-top: 1px solid #21252941;
     width: 100%;
     height: auto;
@@ -998,7 +1000,8 @@
     padding: 20px;
     flex-wrap: wrap;
 }
-.about-web p{
+
+.about-web p {
     margin: 0px;
     font-size: 13px;
     display: inline;
@@ -1143,6 +1146,9 @@
         height: auto;
     }
 
+    .ournews-letter input {
+        width: auto;
+    }
 }
 
 @media only screen and (max-width: 520px) {

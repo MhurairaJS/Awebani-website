@@ -97,7 +97,8 @@
 #side-bar-main {
     background-color: #212529;
 }
-.side-bar-logo h1{
+
+.side-bar-logo h1 {
     color: #fff;
     font-family: "Sevillana", serif;
     font-size: 3rem;
@@ -881,12 +882,13 @@
     width: 100%;
     height: auto;
     text-align: center;
-    padding: 2px 5px;
+    padding: 1px 0px;
+    background-size: cover;
 }
 
 .all-item img {
-    width: 18%;
-    height: 16vw;
+    width: 19.8%;
+    height: 17vw;
     border-radius: 20px;
 }
 
@@ -1165,6 +1167,9 @@
     .ournews-letter input {
         width: auto;
     }
+    .all-item img {
+        width: 19%;
+    }
 }
 
 @media only screen and (max-width: 520px) {
@@ -1243,5 +1248,7 @@
     .input-btn button {
         width: 100%;
     }
-
+    .all-item img {
+        width: 19%;
+    }
 }

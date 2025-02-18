@@ -127,7 +127,7 @@
 }
 
 .middle-content p {
-    margin: 0 8px;
+    margin: 0 10px;
     color: #fff;
     font-size: 1.2rem;
     line-height: 1.3;
@@ -602,12 +602,13 @@
     width: 100%;
     height: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 80px;
 }
 
 .s5-1st-list-bar-img {
-    
+
     width: 26%;
     height: 19%;
     padding: 17rem 0rem;
@@ -616,8 +617,9 @@
     background-size: cover;
     border-radius: 14rem 14rem 1rem 1rem;
 }
+
 .s5-1st-list-bar-img2 {
-    
+
     width: 26%;
     height: 19%;
     padding: 17rem 0rem;
@@ -626,8 +628,9 @@
     background-size: cover;
     border-radius: 14rem 14rem 1rem 1rem;
 }
+
 .s5-1st-list-bar-img3 {
-    
+
     width: 26%;
     height: 19%;
     padding: 17rem 0rem;
@@ -659,14 +662,202 @@
     font-weight: 400;
 }
 
+.section-6 {
+    width: 100%;
+    height: 100%;
+    background-color: #f9eddd;
+}
+
+.s6-content {
+    padding: 4rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.meatchefp {
+    text-align: center;
+}
+
+.meatchefp h3 {
+    font-size: 18px;
+    font-family: "Sevillana", serif;
+    color: #800000;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.meatchefp h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.meatchefp p {
+    width: 388px;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    font-size: 13px;
+    font-weight: 400;
+    color: #726464;
+    line-height: 19px;
+}
+
+.meatchefp-img {
+    position: relative;
+    width: 388px;
+    height: 14%;
+    padding: 16rem 0rem;
+    background-image: url(/section-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14rem 14rem 1rem 1rem;
+}
+
+.meatchefp-right img {
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    right: -98px;
+    bottom: 50px;
+    border-radius: 20px;
+}
 
 
+.s6-content-2 {
+    width: 100%;
+    height: 560px;
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSCPrLEaEaz7T8Raf1MXbUm8WwCKXKO-YSIXnHNg-qyAaEJOGf);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
 
+.s6-content-02 {
+    width: 100%;
+    height: 260px;
+}
 
+.s6-content-contactus {
+    margin: 0 auto;
+    margin-top: -18rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 890px;
+    height: 585px;
+    padding: 20px;
+    z-index: 8;
+}
 
+.contactus {
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 1rem;
+    padding: 40px;
+}
 
+.contactus-top-text {
+    text-align: center;
+}
 
+.contactus-top-text h3 {
+    margin: 0px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 3;
+    color: #800000;
+    font-family: "Sevillana", serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contactus-top-text h1 {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    line-height: 1;
+    color: #000000;
+}
+
+.contactus-inputs {
+    text-align: center;
+}
+
+.inputs-1 input {
+    margin: 5px;
+    width: 335px;
+    height: 41px;
+    padding: 0 0 0 34px;
+    font-size: 1em;
+    border: 1px solid #2422223b;
+    border-radius: 3rem;
+}
+
+.inputs-2 input {
+    width: 220px;
+    margin: 5px;
+    /* height: 43px; */
+    /* width: 335px; */
+    height: 41px;
+    padding: 0 0 0 34px;
+    font-size: 1em;
+    border: 1px solid #2422223b;
+    border-radius: 7rem;
+}
+
+.inputs-3 textarea {
+    width: 683px;
+    height: 119px;
+    padding: 15px 0 0 34px;
+    font-size: 1em;
+    border: 1px solid #2422223b;
+    border-radius: 1rem;
+    margin: 10px;
+}
+
+.input-btn button {
+    width: 683px;
+    height: 40px;
+    border-radius: 3rem;
+    border: 1px solid #800000;
+    background-color: #800000;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.journey-1 {
+    width: 100%;
+    text-align: center;
+}
+
+.journey-1 h2 {
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    word-spacing: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: black;
+}
+
+.journey-1 img {
+    border-radius: 3rem;
+    margin: 0rem 1rem 2rem 1rem;
+}
+
+.s6-dish-journey {
+    margin-top: 2rem;
+    padding: 20px;
+}
+
+.s6-content-contactus {
+    height: auto;
+}
 
 
 @media only screen and (max-width: 1580px) {
@@ -678,7 +869,11 @@
         margin: 0px 10px;
     }
 }
-    
+.all-item img {
+    width: 100%;
+    height: 700px;
+}
+
 
 @media only screen and (max-width: 1210px) {
     .nav-item {
@@ -743,27 +938,79 @@
     .seacand-txt {
         border: none;
     }
-    .s5-1st-list-bar-img{
+
+    .s5-1st-list-bar-img {
         margin: 0 auto;
         width: 382px;
         padding: 15rem 0rem
     }
-    .s5-1st-list-bar-img2{
+
+    .s5-1st-list-bar-img2 {
         margin: 0 auto;
         width: 382px;
         padding: 15rem 0rem
     }
-    .s5-1st-list-bar-img3{
+
+    .s5-1st-list-bar-img3 {
         margin: 0 auto;
         width: 382px;
         padding: 15rem 0rem
     }
+
     .s5-1st-list-bar {
         display: block;
     }
-    .s5-1st-list-content{
+
+    .s5-1st-list-content {
         text-align: center;
     }
+
+    .meatchefp-right img {
+        display: none;
+    }
+
+    .michelin {
+        justify-content: center;
+    }
+
+    .s6-content {
+        gap: 5px;
+    }
+
+    .contactus {
+        width: 100%;
+        height: auto;
+    }
+
+    .inputs-3 textarea {
+        width: auto;
+    }
+
+    .inputs-1 input {
+        width: 100%;
+    }
+
+    body input {
+        display: block;
+    }
+
+    .inputs-2 input {
+        width: 100%;
+    }
+
+    .inputs-3 textarea {
+        width: 100%;
+    }
+
+    .input-btn button {
+        width: 100%;
+    }
+
+    .s6-content-contactus {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 @media only screen and (max-width: 520px) {
@@ -786,16 +1033,61 @@
     .section-one {
         padding-bottom: 0px;
     }
-    .list span{
+
+    .list span {
         font-size: 4px;
     }
-    .s5-1st-list-bar-img{
-        width: 100%;
+
+    .s5-1st-list-bar-img {
+        width: 83%;
+        height: 289px;
+        padding: 14px;
     }
+
     .s5-1st-list-bar-img2 {
-        width: 100%;
+        width: 83%;
+        height: 289px;
+        padding: 14px;
     }
+
     .s5-1st-list-bar-img3 {
+        width: 83%;
+        height: 289px;
+        padding: 14px;
+    }
+
+    .meatchefp-img {
+        width: 83%;
+        height: 289px;
+        padding: 14px;
+    }
+
+    .contactus {
         width: 100%;
     }
+
+    .inputs-3 textarea {
+        width: auto;
+    }
+
+    .inputs-1 input {
+        width: 100%;
+    }
+
+    body input {
+        display: block;
+    }
+
+    .inputs-2 input {
+        width: 100%;
+    }
+
+    .inputs-3 textarea {
+        width: 100%;
+    }
+
+    .input-btn button {
+        width: 100%;
+    }
+
 }
